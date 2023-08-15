@@ -28,7 +28,7 @@ gsap.from(".about .para", {
   scrollTrigger: {
     trigger: ".about .para",
     start: "top 90%",
-    end: "top 60%",
+    end: "top 70%",
     // markers: true,
     // scrub: true,
   },
@@ -42,7 +42,7 @@ gsap.from(".about .personalDetail", {
   scrollTrigger: {
     trigger: ".about .personalDetail",
     start: "top 90%",
-    end: "top 60%",
+    end: "top 70%",
     // markers: true,
     // scrub: true,
   },
