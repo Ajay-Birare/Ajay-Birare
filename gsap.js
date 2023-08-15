@@ -1,5 +1,23 @@
 var tl = gsap.timeline();
 
+tl.from(".circle", {
+  scale: 0,
+  // y: 110,
+  // delay: 0.5,
+  duration: 0.3,
+  stagger: 0.1,
+  repeat: 5,
+  yoyo: true,
+});
+
+tl.to(".load", {
+  top: "-100vh",
+  duration: 1,
+  delay: 0.5,
+});
+
+// 00000000000000000000000
+
 tl.from(".navbar .left,.navbar .right,.navbar .menu", {
   y: -100,
   duration: 0.5,

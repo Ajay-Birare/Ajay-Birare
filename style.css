@@ -430,3 +430,49 @@ h5,
 p {
   font-family: "Catamaran", sans-serif;
 }
+
+/* -------------------------------- */
+
+/* this is starting loader  */
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(168, 224, 235);
+  position: fixed;
+  z-index: 99;
+}
+
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(201, 133, 237);
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  gap: 10px;
+  position: fixed;
+  z-index: 99;
+  /* background-color: rgb(90, 65, 228); */
+  background-color: var(--primaryColor);
+}
+
+.load .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
