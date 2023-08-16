@@ -49,7 +49,7 @@ html {
   transition: all 0.3s;
 }
 .navbar .right a:hover {
-  color: black;
+  /* color: black; */
 }
 .menu {
   cursor: pointer;
@@ -475,4 +475,23 @@ p {
   width: 30px;
   border-radius: 50%;
   background-color: white;
+}
+
+.navbar .right a {
+  position: relative;
+  padding-bottom: 1px;
+}
+.navbar .right a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+.navbar .right a:hover::after {
+  width: 100%;
 }
