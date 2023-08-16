@@ -495,3 +495,21 @@ p {
 .navbar .right a:hover::after {
   width: 100%;
 }
+
+/* -----type writer */
+
+.typing {
+  overflow: hidden;
+  /* border-right: 2px solid #dadada; */
+  white-space: nowrap;
+  animation: typingAndPause 5s 5s steps(40);
+}
+
+@keyframes typingAndPause {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
