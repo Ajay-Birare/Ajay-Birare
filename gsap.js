@@ -138,6 +138,7 @@ tl.from(".skills .skillFlex img ", {
 tl.from(".education .educationsteps div", {
   duration: 1,
   scale: 0,
+  stagger: 0.7,
   scrollTrigger: {
     trigger: ".education .educationsteps div",
     start: "top 90%",
