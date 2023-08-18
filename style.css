@@ -505,12 +505,12 @@ p {
   overflow: hidden;
   /* border-right: 2px solid #dadada; */
   white-space: nowrap;
-  animation: typingAndPause 5s 5s steps(40);
+  animation: typingAndPause 3s 5s steps(40) infinite alternate;
 }
 
 @keyframes typingAndPause {
   0% {
-    width: 0;
+    width: 40%;
   }
   100% {
     width: 85%;
