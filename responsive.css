@@ -114,6 +114,19 @@
     background-color: #9ccff0;
     /* padding: 10%; */
   }
+
+  .navbar .right a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: var(--primaryColor);
+    color: white;
+    z-index: -2222;
+    left: 0;
+    bottom: 0;
+    transition: all 0.8s;
+  }
 }
 
 @media screen and (max-width: 500px) {
