@@ -49,7 +49,7 @@ html {
   transition: all 0.3s;
 }
 .navbar .right a:hover {
-  /* color: black; */
+  color: black;
 }
 .menu {
   cursor: pointer;
@@ -484,7 +484,6 @@ p {
   padding-bottom: 1px;
   transition: all 0.5s;
 }
-
 
 /* -----type writer */
 
