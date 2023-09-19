@@ -12,3 +12,12 @@ btn.addEventListener("click", function () {
   menuList.classList.toggle("show");
   btn.classList.toggle("menuImg");
 });
+
+// .profile .about .skills .education
+// .projects .contact
+
+const profile = document.querySelector(".profile");
+
+profile.addEventListener("mouseover", function () {
+  console.log("hii");
+});
