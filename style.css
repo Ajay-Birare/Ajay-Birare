@@ -477,28 +477,3 @@ p {
   border-radius: 50%;
   background-color: white;
 }
-
-/* hover effect for a tag */
-.navbar .right a {
-  position: relative;
-  padding-bottom: 1px;
-  transition: all 0.5s;
-}
-
-/* -----type writer */
-
-.typing {
-  overflow: hidden;
-  /* border-right: 2px solid #dadada; */
-  white-space: nowrap;
-  animation: typingAndPause 3s 5s steps(40) infinite alternate;
-}
-
-@keyframes typingAndPause {
-  0% {
-    width: 40%;
-  }
-  100% {
-    width: 85%;
-  }
-}
