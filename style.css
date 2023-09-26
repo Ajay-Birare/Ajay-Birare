@@ -477,3 +477,10 @@ p {
   border-radius: 50%;
   background-color: white;
 }
+
+/* make diff */
+.navbar .right .over {
+  /* color: black; */
+  border-bottom: 2px solid white;
+  /* position: relative; */
+}
