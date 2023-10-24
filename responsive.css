@@ -285,4 +285,10 @@
   .connect {
     margin-top: 50rem;
   }
+
+  /* bug */
+  .profile .resume a {
+    color: red;
+    font-size: 13px;
+  }
 }
